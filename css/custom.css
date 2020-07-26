@@ -1,0 +1,697 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+body {
+    /*background-image: linear-gradient(to bottom right, #E09EC6, #FFFEB4);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    background: url("../bg.png") no-repeat;
+    background-attachment: fixed
+}
+
+.naviContainer {
+    background: url(../headbg.png) no-repeat;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 60px;
+    z-index: 10;
+    
+}
+
+.nav-pills > li.active > a {
+    background-color: transparent !important;
+    color: #FFFEB4 !important;
+} 
+.nav-pills > li > a {
+    background-color: transparent !important;
+    color: #FFFEB4 !important;
+} 
+
+.nav-pills > li.active > a:focus {
+    background-color: transparent !important;
+    color: #FFFEB4!important;
+}
+  
+  .nav-pills > li > a:hover {
+    color: #FFFEB4 !important;
+    background-color: transparent !important;
+  }
+
+  .nav-pills > li > a:focus {
+    color: #FFFEB4 !important;
+    background-color: transparent !important;
+  }
+  
+ .dropdown-menu {
+    border: none;
+    border-radius: none;
+    background-color: white;
+    box-shadow: none;
+}
+
+.dropdown-menu > li > a {
+    color: #E09EC6;
+}
+
+.dropdown-menu > li >a:hover {
+    text-decoration: none !important;
+    color: #2E2F31 !important;
+    background-color: white;
+}
+
+.dropdown-menu > li > a:focus {
+    text-decoration: none !important;
+    color: #2E2F31 !important;
+    background-color: white;
+}
+
+
+.headTitle {
+    color: white;
+    height: 200px;
+    text-align: center;
+    position: sticky;
+    z-index: -1;
+    top: 20%;
+}
+
+.whiteContainer {
+    background-color: white;
+    width: 80%;
+    min-height: 100vh;
+    position: sticky;
+    top: 5%;
+    z-index: 1;
+}
+
+
+.transparentContainer {
+    background-color: transparent;
+    position: relative;
+    width: 80%;
+    align-self: flex-start;
+    z-index: 2;
+}
+
+
+/*
+.whiteContainer {
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    position: sticky;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    top: 5%;
+    z-index: -1;
+}
+
+
+.transparentContainer {
+    background-color: transparent;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    align-self: flex-start;
+    top: -580px;
+    z-index: 1;
+}
+*/
+
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+} 
+
+h3 {
+    color: #2E2F31;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #E09EC6;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.my-icons {
+    height: 60%;
+    width: 60%;
+    margin-top: 4em;
+}
+
+.center {
+    text-align: center;
+}
+
+.aboutText {
+    padding-top: 10%;
+}
+
+.about {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.borderBottom {
+    border-bottom: 2px solid #E09EC6;
+    width: 80%;
+    padding: 3%;
+    left: 10%;
+}
+
+.about p {
+    color: #2E2F31;
+    font-size: 120%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.title {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.title h6 {
+    color: #2E2F31;
+}
+
+.skills {
+    color: #2E2F31;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 5%;
+} 
+
+.skillTitle {
+    color: #2E2F31;
+    font-size: 25%;
+    text-align: center
+}
+
+.omaKuva {
+    height: 70%;
+    width: 70%;
+}
+
+.footer {
+    height: 200px;
+}
+
+/* MOBILE INDEX*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .headTitle {
+        color: white;
+        height: 280px;
+        text-align: center;
+        position: sticky;
+        z-index: -1;
+        top: 20%;
+    }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .headTitle {
+        color: white;
+        height: 200px;
+        text-align: center;
+        position: sticky;
+        z-index: -1;
+        top: 20%;
+    }
+
+    .headTitle h1 {
+        font-size: 200%;
+    }
+
+    .boxes h3 {
+        font-size: 80%;
+    }
+
+    .my-icons {
+        height: 70%;
+        width: 70%;
+        margin-top: 4em;
+    }
+
+    .about p {
+        color: #2E2F31;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    .omaKuva {
+        height: 50%;
+        width: 50%;
+        margin-top: 6%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 381px) and (max-width: 480px) {
+
+    .boxes h3 {
+        font-size: 80%;
+    }
+
+}
+
+
+@media only screen and (min-width: 331px) and (max-width: 380px){
+
+    .boxes h3 {
+        font-size: 80%;
+    }
+} 
+
+@media only screen and (max-width: 330px){
+
+    .boxes h3 {
+        font-size: 80%;
+    }
+} 
+
+/*STYLE PORTFOLIO*/
+
+.aboutP {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutP p {
+    color: #2E2F31;
+    font-size: 120%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.aboutPLong {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.aboutPLong p {
+    color: #2E2F31;
+    font-size: 120%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.aboutP2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutP2 p {
+    color: #2E2F31;
+    font-size: 120%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.portTitle {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.portSecTitle {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.oddogle {
+    padding-bottom: 10%;
+    position: relative;
+    z-index: 3;
+}
+
+.oddoglenav a {
+    color: #2E2F31;
+    padding-bottom: 5%;
+}
+
+.uiPic {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 10%;
+}
+
+.gif {
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
+
+.protoGif {
+    height: 50%;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.codeSnip {
+    height: 70%;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.vectorPic {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.virheLogo {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.gameIMG {
+    margin-left: 17%;
+}
+
+.gameIMG2 {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.gameIMG3 {
+    height: 90%;
+    width: 90%;
+    margin-top: 10%;
+}
+
+
+
+/*MOBILE PORTFOLIO*/
+
+@media only screen and (max-width: 1000px){
+
+    .aboutP p {
+        color: #2E2F31;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    .aboutP2 p {
+        color: #2E2F31;
+        font-size: 100%;
+        margin: 0;
+    }
+    
+    .aboutPLong p {
+        color: #2E2F31;
+        font-size: 100%;
+        margin: 0;
+    }
+    
+
+    .gameIMG {
+        margin-left: 0;
+        height: 98%;
+        width: 98%;
+    }
+    
+    .gameIMG2 {
+        height: 80%;
+        width: 80%;
+        margin-left: 10;
+    }
+    
+    .gameIMG3 {
+        height: 90%;
+        width: 90%;
+        margin-left: 3%;
+    }
+}
+
+/*CV*/
+
+.cvPicFin {
+    height: 40%;
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 50%;
+    border: 0.8px solid #2E2F31;
+}
+
+.cvPicEng {
+    height: 40%;
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 10%;
+    border: 0.8px solid #2E2F31;
+}
+
+.cvFin {
+    margin-left: 40%;
+}
+
+.cvEng {
+    margin-right: 40%;
+}
+
+/*CV MOBILE*/
+
+@media only screen and (max-width: 1000px){
+
+    .cvPicFin {
+        height: 40%;
+        width: 40%;
+        margin-top: 20%;
+        margin-left: 30%;
+        border: 0.8px solid #2E2F31;
+    }
+    
+    .cvPicEng {
+        height: 40%;
+        width: 40%;
+        margin-top: 20%;
+        margin-left: 30%;
+        border: 0.8px solid #2E2F31;
+    }
+    
+    .cvFin {
+        margin-left: 0%;
+    }
+    
+    .cvEng {
+        margin-right: 0%;
+    }
+    
+}
+
+/*CONTACT*/
+
+.contactIcon {
+    height: 20%;
+    width: 20%;
+    margin-left: 35%;
+    margin-top: 30%;
+    padding-bottom: 5%;
+}
+
+.contactItem1 {
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+.contactItem2 {
+    margin-left: 25%;
+    padding-top: 10%;
+}
+
+.contactItem3 {
+    margin-left: 25%;
+    padding-top: 10%;
+}
+
+.contactItem1 p {
+    color: #2E2F31;
+}
+
+.contactItem2 p {
+    color: #2E2F31;
+}
+
+.contactItem3 p {
+    color: #2E2F31;
+}
+
+/*CONTACT MOBILE*/
+
+@media only screen and (max-width: 1000px){
+
+    .contactIcon {
+        height: 20%;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 30%;
+        padding-bottom: 5%;
+    }
+
+    .contactItem1 {
+        margin-left: 32%;
+        padding-top: 10%;
+    }
+    
+    .contactItem2 {
+        margin-left: 40%;
+        padding-top: 10%;
+    }
+    
+    .contactItem3 {
+        margin-left: 40%;
+        padding-top: 10%;
+    }
+    
+    .contactItem3 p {
+        color: #2E2F31;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .contactIcon {
+        height: 20%;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 30%;
+        padding-bottom: 5%;
+    }
+
+    .contactItem1 {
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+    
+    .contactItem2 {
+        margin-left: 20%;
+        padding-top: 10%;
+    }
+    
+    .contactItem3 {
+        margin-left: 20%;
+        padding-top: 10%;
+    }
+    
+    .contactItem3 p {
+        color: #2E2F31;
+    }
+}
+
+
+
+
+
+/* OddOgle page */ 
+/*
+.header h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #6A539F;
+    position: relative;
+    font-size: 350%;
+    margin-bottom: 6%;
+}
+
+.header img {
+    height: 5%;
+    width: 5%;
+    margin-bottom: 1%;
+    margin-right: 0.5%;
+}
+
+.header a {
+    color: #6A539F;
+}
+
+.header a:visited {
+    color: #6A539F;
+}
+
+.header a:hover {
+    color: #6A539F;
+}
+
+.ui {
+    margin-bottom: 3%;
+}
+
+.uiPic {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+.uiPicRow {
+    margin-bottom: 6%;
+}
+
+.codeCollapse {
+    margin-top: 0%;
+}
+
+.panel {
+    background-color: #848484;
+    color: white;
+    border: 0;
+}
+
+.panel-default .panel-heading {
+    background-color: #2E2F31;
+    color: white;
+    border: 0;
+}
+
+.example {
+    margin-top: 6%;
+} 
+
+.gif {
+    height: 30%;
+    width: 30%;
+    margin-top: 0;
+}
+
+pre {
+    text-align: left;
+    background-color: #848484;
+    color: white;
+    border: 0;
+}
+
+
+.oddogleLead {
+    margin-bottom: 6%;
+}
+ */
